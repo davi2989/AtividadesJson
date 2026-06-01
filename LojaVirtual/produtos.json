@@ -1,0 +1,32 @@
+[
+    {
+        "nome": "Notebook Dell",
+        "preco": 3500,
+        "categoria": "Eletrônicos",
+        "estoque": 10
+    },
+    {
+        "nome": "Mouse Gamer",
+        "preco": 150,
+        "categoria": "Acessórios",
+        "estoque": 25
+    },
+    {
+        "nome": "Teclado Mecânico",
+        "preco": 300,
+        "categoria": "Acessórios",
+        "estoque": 15
+    },
+    {
+        "nome": "Smartphone Samsung",
+        "preco": 2200,
+        "categoria": "Eletrônicos",
+        "estoque": 8
+    },
+    {
+        "nome": "Fone Bluetooth",
+        "preco": 200,
+        "categoria": "Áudio",
+        "estoque": 20
+    }
+]
