@@ -1,0 +1,22 @@
+[
+    {
+        "nome": "Vingadores: Ultimato",
+        "nota": 9.5,
+        "genero": "Ação"
+    },
+    {
+        "nome": "Interestelar",
+        "nota": 9.0,
+        "genero": "Ficção Científica"
+    },
+    {
+        "nome": "O Rei Leão",
+        "nota": 8.5,
+        "genero": "Animação"
+    },
+    {
+        "nome": "Titanic",
+        "nota": 8.7,
+        "genero": "Romance"
+    }
+]
