@@ -1,32 +1,34 @@
-# Projeto: Lista de Alunos com JSON
+# Exercícios de JavaScript com JSON e DOM
 
-Este projeto é uma aplicação simples em HTML, CSS e JavaScript que carrega e exibe uma lista de alunos a partir de um arquivo JSON.
-
----
-
-## Funcionalidades
-
-* Carregar dados de um arquivo JSON
-* Exibir alunos em formato de cards
-* Mostrar informações como:
-
-  * Nome
-  * Idade
-  * Curso
-  * Cidade
-  * Email
+Este repositório reúne uma série de exercícios práticos desenvolvidos com HTML, CSS e JavaScript, focados em lógica de programação, manipulação do DOM e consumo de dados em JSON.
 
 ---
 
-## Estrutura do Projeto
+## Conteúdo do Repositório
 
-```
-projeto
-├── index.html
-├── style.css (ou dentro do HTML)
-├── script.js
-└── alunos.json
-```
+Os projetos incluem:
+
+* Estruturas condicionais e loops
+* Manipulação de arrays
+* Consumo de arquivos JSON com `fetch`
+* Renderização dinâmica de dados na tela
+* Projetos simulando cenários reais, como:
+
+  * Lista de alunos
+  * Catálogo de filmes
+  * Loja virtual
+  * Plataforma de cursos com filtros
+
+---
+
+## Estrutura Geral
+
+Cada exercício está organizado em sua própria pasta, geralmente contendo:
+
+* `index.html`
+* `script.js`
+* `style.css` (quando necessário)
+* Arquivo `.json` com os dados
 
 ---
 
@@ -34,70 +36,37 @@ projeto
 
 * HTML5
 * CSS3
-* JavaScript (Fetch API)
+* JavaScript (ES6+)
 * JSON
 
 ---
 
-## Como funciona
+## Funcionalidades Trabalhadas
 
-1. O usuário clica no botão "Carregar JSON"
-2. O JavaScript faz uma requisição usando fetch() para o arquivo alunos.json
-3. Os dados são convertidos para objeto com .json()
-4. Cada aluno é exibido dinamicamente na tela dentro de uma `<div class="card">`
-
----
-
-## Exemplo de Aluno (JSON)
-
-```json
-{
-  "nome": "João Silva",
-  "idade": 19,
-  "curso": "Administração",
-  "cidade": "Caxias do Sul",
-  "email": "joao@email.com"
-}
-```
+* Requisições com `fetch()`
+* Uso de `for`, `while` e `forEach`
+* Métodos de array como `map()` e `filter()`
+* Template strings
+* Eventos (`onclick`, `addEventListener`)
+* Manipulação do DOM
 
 ---
 
 ## Como executar
 
-1. Baixe ou clone o projeto
-2. Abra o arquivo index.html no navegador
+1. Clone ou baixe o repositório
+2. Abra a pasta do exercício desejado
+3. Execute o arquivo `index.html` no navegador
 
-Importante:
-Para evitar erro de CORS com o fetch, o ideal é rodar com um servidor local.
-
-Exemplo com VS Code:
-
-* Instale a extensão Live Server
-* Clique com botão direito no index.html
-* Selecione "Open with Live Server"
+Recomendado: utilizar um servidor local (ex: Live Server no VS Code) para evitar problemas com `fetch()`.
 
 ---
 
-## Objetivo do Projeto
+## Objetivo
 
-Este projeto foi desenvolvido para praticar:
-
-* Manipulação de JSON
-* Requisições com fetch
-* Manipulação do DOM
-* Estruturas de dados em JavaScript
-
----
-
-## Possíveis Melhorias
-
-* Busca de alunos por nome
-* Adicionar novos alunos pela interface
-* Salvar dados com LocalStorage
-* Melhorar o design com CSS moderno
+Consolidar conceitos fundamentais de JavaScript através de exercícios práticos e progressivos, simulando situações próximas ao desenvolvimento web real.
 
 ---
 
 ## Autor
-
-Davi Kleemann
+Davi Soares Kleemann
