@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Cursos</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        select {
+            padding: 8px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        .esgotado {
+            opacity: 0.5;
+        }
+
+        .tag {
+            color: white;
+            background: red;
+            padding: 3px 8px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Cursos</h1>
+
+    <select id="filtro">
+        <option value="Todos">Todos</option>
+        <option value="Programação">Programação</option>
+        <option value="Design">Design</option>
+        <option value="Negócios">Negócios</option>
+    </select>
+
+    <div id="container-cursos"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
