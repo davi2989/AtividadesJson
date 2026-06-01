@@ -1,0 +1,44 @@
+[
+    {
+        "nome": "Marcia Souza",
+        "idade": 20,
+        "curso": "Informática",
+        "cidade": "Porto Alegre",
+        "email": "marcia@email.com"
+    },
+    {
+        "nome": "João Silva",
+        "idade": 19,
+        "curso": "Administração",
+        "cidade": "Caxias do Sul",
+        "email": "joao@email.com"
+    },
+    {
+        "nome": "Ana Rambus",
+        "idade": 21,
+        "curso": "Design",
+        "cidade": "Bento Gonçalves",
+        "email": "ana@email.com"
+    },
+    {
+        "nome": "Carlos Lima",
+        "idade": 22,
+        "curso": "Engenharia",
+        "cidade": "Flores da Cunha",
+        "email": "carlos@email.com"
+    },
+    {
+        "nome": "Juliana Costa",
+        "idade": 18,
+        "curso": "Medicina",
+        "cidade": "Farroupilha",
+        "email": "juliana@email.com"
+    },
+    {
+        "nome": "Pedro Alves",
+        "idade": 23,
+        "curso": "Direito",
+        "cidade": "Garibaldi",
+        "email": "pedro@email.com"
+    }
+]
